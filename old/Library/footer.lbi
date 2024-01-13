@@ -1,0 +1,17 @@
+<div id="footer"><img src="../images/footertop.gif" width="750" height="90" border="0" usemap="#Map" /></div>
+<div id="footer"><img src="../images/footerbtm.gif" width="750" height="43" border="0" usemap="#Map2" /></div>
+<div id="contact"><p><strong> Edinburgh Tel: 0131 333 5060 - Glasgow Tel: 0141 647 5399 </strong></p><p><strong> Web: www.buchanstowbars.co.uk </strong></p></div>
+<map name="Map">
+<area shape="rect" coords="33,-1,172,31" href="../company/contact.htm" alt="Edinburgh Contact Details">
+<area shape="rect" coords="32,35,172,69" href="../company/contact.htm" alt="Glasgow Contact Details">
+</map>
+<map name="Map2">
+<area shape="rect" coords="23,8,89,27" href="../company/privacy.htm" alt="Privacy Details">
+<area shape="rect" coords="101,8,165,27" href="../company/termsconditions.htm" alt="Terms &amp; Conditions">
+<area shape="rect" coords="224,2,289,29" href="http://www.brinkweb.com/" target="_blank" alt="Brink Towbars">
+<area shape="rect" coords="298,3,378,29" href="http://www.dixonbate.co.uk/" target="_blank" alt="Dixon Bate">
+<area shape="rect" coords="390,2,478,29" href="http://www.touchstone-design.co.uk" target="_blank" alt="Maxxraxx Cycle Carriers">
+<area shape="rect" coords="489,2,554,29" href="http://www.thule.com" target="_blank" alt="Thule Car Rack Systems">
+<area shape="rect" coords="563,2,617,29" href="http://www.witter-towbars.co.uk" target="_blank" alt="Witter Towbars">
+<area shape="rect" coords="628,2,724,29" href="#" alt="Westfalia Towbars">
+</map>

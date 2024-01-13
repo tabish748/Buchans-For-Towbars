@@ -1,0 +1,495 @@
+body {
+	text-align: center;
+	background-color: #FFFFFF;
+	}
+	
+	#navlist {
+	font-size: 0em;
+	margin: 0px 0 0;
+	width: 160px;
+	padding-left: 15px;
+}
+#navlist li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+#navlist ul {
+	list-style-type : none;
+	margin : 0;
+	padding : 0;
+}
+
+#navlist a {
+	display : block;
+	padding : 6px 3px 6px 36px;
+	background-position : 0% 50%;
+	background-repeat : no-repeat;
+	color : #333333;
+}
+
+#navlist a:link {
+	background-image : url(images/menubgr.gif);
+	background-position : 0% 50%;
+	background-repeat : no-repeat;
+	color : #FFFFFF;
+	text-decoration : none;
+}
+#navlist a:visited {
+	background-image : url(images/menubgr.gif);
+	background-position : 0% 50%;
+	background-repeat : no-repeat;
+	color : #FFFFFF;
+	text-decoration : none;
+}
+
+#navlist a:hover, #navlist a:active {
+	background-image : url(images/menubgrhov.gif);
+	background-position : 0% 50%;
+	background-repeat : no-repeat;
+	color : #FFFFFF;
+}
+
+#uberlink a:link, #uberlink a:visited,
+#uberlink a:hover, #uberlink a:active {
+	background-color: #D6EFD6;
+	background-image:  url(images/site/menubgrhov.gif);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	color : #FF0000;
+}
+#menu {
+	left : 10px;
+	margin : 0px;
+	padding : 0px;
+	top : 177px;
+	z-index : 10;
+	visibility: visible;
+	width: 185px;
+	float: left;
+}
+#navwxl {
+	background-image : url(images/wxl.gif);
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	padding-bottom : 0px;
+	padding-left : 45px;
+	padding-top : 5px;
+	height: 17px;
+	width: 115px;
+}	
+#navspacer {
+}
+#address {
+	background-image : url(images/menubgradd.gif);
+	border-bottom : 1px solid #000000;
+	border-right : 1px solid #000000;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	padding-bottom : 3px;
+	padding-left : 43px;
+	padding-top : 3px;
+	text-align : left;
+	font-weight: normal;
+}
+a:link {
+	color : #333333;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration: underline;
+}
+
+a:visited {
+	color : #FF0000;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration: underline;
+}
+
+a:hover {
+	color : Red;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration: underline;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 1px;
+	text-indent: -2000px;
+	height: 110px;
+	background: url(images/buchanslogo.gif) no-repeat;
+	width: 750px;
+}
+
+h2 {
+	font-size : 16px;
+	font-weight : bold;
+}
+
+h3 {
+	font-size : 11px;
+	font-weight : bold;
+}
+h4 {
+	font-size : 11px;
+	font-weight : normal;
+}
+.wxl:link {
+	background-color : #FFFFFF;
+	color : #666666;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	text-decoration : none;
+}
+
+.wxl:visited{
+	background-color : #FFFFFF;
+	color : #666666;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	text-decoration : none;
+}
+
+.wxl:hover{
+	background-color : #FFFFFF;
+	color : #FF9900;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	text-decoration : underline;
+}
+.cl:link {
+	color : #333333;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration : underline;
+}
+
+.cl:visited{
+	color : #FF0000;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration : underline;
+}
+
+.cl:hover{
+	color : #FF0000;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration : underline;
+}
+.pl:link {
+	color : #333333;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration : underline;
+}
+
+.pl:visited{
+	color : #0E6987;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration : underline;
+}
+
+.pl:hover{
+	color : #FF0000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration : underline;
+}
+.tl:link {
+	color : #FF0000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	text-decoration : underline;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.tl:visited{
+	color : #FF0000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	text-decoration : underline;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.tl:hover{
+	color : #333333;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	text-decoration : underline;
+	font-size: 16px;
+	font-weight: bold;
+}
+.fl:link {
+	color : #FFFFFF;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	text-decoration : underline;
+}
+
+.fl:visited{
+	color : #FFFFFF;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	text-decoration : underline;
+}
+
+.fl:hover{
+	color : #FFB7B7;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	text-decoration : underline;
+}
+.footertxt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFA6A6;
+}
+#container {
+	text-align: left;
+	width: 750px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	background-image: url(images/pagebgr.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+	}
+#containerhp {
+	text-align: left;
+	width: 750px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	background-image: url(images/hpbgr.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	}	
+#header {
+	margin: 0;
+	padding: 0;
+	height: 157px;
+	background: url(images/buchanslogo.gif) no-repeat;
+	width: 748px;
+	}	
+#headerprint {
+	height: 139px;
+	float: none;
+	display: none;
+	}
+#main {
+	float: right;
+	width : 445px;
+	color : #333333;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	line-height : 16px;
+	text-align : justify;
+	padding-right: 100px;
+	padding-top: 10px;
+}
+#main p{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 10px 0px;
+	}
+	#main p .Q {
+		display: block;
+		color: #000000;
+		font: bold 11px/normal Verdana, Arial, Helvetica, sans-serif;
+		background: url(images/faqq.gif) no-repeat 0px 0px;
+		margin: 0 0 0 0px;
+		padding: 0 0 0 20px;
+		}
+			#main p .A {
+		display: block;
+		color: #000000;
+		font: 11px/normal Verdana, Arial, Helvetica, sans-serif;
+		background: url(images/faqa.gif) no-repeat 0px 0px;
+		margin: 0 0 0 0px;
+		padding: 0 0 0 20px;
+		}	
+#main li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}	
+#main ul{
+	margin: 0px;
+	padding: 5px 0px 0px 20px;
+	}
+#experts {
+	float: left;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	width: 128px;
+	line-height: 18px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#expertsub {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	width: 590px;
+	line-height: 18px;
+}
+#experts p {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#logos {
+	float: right;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	width: 530px;
+	line-height: 18px;
+	padding: 5px 30px;
+}
+#footer {
+	clear: both;
+	width: 750px;
+}
+	#footer p {
+	color: #333333;
+	font: italic 11px Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	}
+#copyright {
+	float: right;
+	width : 580px;
+	text-align : center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+	background-image: url(images/fcp.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+}
+	#copyright p {
+	margin: 0px;
+	padding: 0px;
+		}
+#contact {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 15px;
+	margin-bottom: 3px;
+	clear: none;
+	display: none;
+	background-color: #FD0000;
+}
+	#contact p {
+	color: #333333;
+	font: italic 11px Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	}		
+#btm {
+	clear: both;
+}
+.productdetails {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: normal;
+	text-align: justify;
+}
+.validation {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: normal;
+	text-align: justify;
+}
+.formfield200 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #7F9DB9;
+}
+.frmMessage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #7F9DB9;
+}
+.formfielddd {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 188px;
+}
+.frmbtns {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.frmfldName {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.fldexperts {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	width: 120px;
+}
+.notes {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+}
+.accesstxt {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+}
+.accessimage {
+	border-bottom: 1px dashed #CCCCCC;
+	text-align: center;
+}
+.accesstxtt {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	border-top-width: 1px;
+	border-top-color: #CCCCCC;
+	border-top-style: dashed;
+}
+.accessimaget {
+	text-align: center;
+	border-top: 1px dashed #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+.frmbtnxs {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.fldexpertstxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	width: 150px;
+	line-height: normal;
+}
+.expertstxt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: normal;
+	padding-bottom: 5px;
+}
+.tels {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+}
